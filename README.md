@@ -6,8 +6,10 @@ Understand the use of EmScripten with C++ code and libraries
 
 ##Pre-requisites
 
-[Building instructions](BUILD.md)
-   
+* [git](https://git-scm.com/)
+* [cmake](https://cmake.org/)
+* [EmScripten](http://kripken.github.io/emscripten-site/)
+
 ##Build
 
 Check the [Building instructions](BUILD.md).

@@ -1,17 +1,24 @@
+sudo: required
 language: c++
+
 compiler:
   - gcc
   - clang
+
 os:
   - linux
   - osx
+
 before_script:
+
 script:
   - mkdir build
   - cd build
   - cmake ..
   - make
   - make install
-  - ./myExe
+  - cd ..
+  - myExe
+
 notifications:
   email: false
