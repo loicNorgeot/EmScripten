@@ -2,12 +2,16 @@
 
 #Emscripten compilation tests
 
-## Installation classique
-   mkdir build
-   cd build
-   cmake ..
-   make
-   make install
+Understand the use of EmScripten with C++ code and libraries
 
-## Compilation avec emscripten
-A venir...
+##Pre-requisites
+
+[Building instructions](BUILD.md)
+   
+##Build
+
+Check the [Building instructions](BUILD.md).
+
+##Examples
+
+Coming soon...
