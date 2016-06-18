@@ -1,0 +1,16 @@
+language: c++
+compiler:
+  - gcc
+  - clang
+os:
+  - linux
+  - osx
+before_script:
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - ./main
+notifications:
+  email: false
