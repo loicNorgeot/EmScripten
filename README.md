@@ -1,3 +1,5 @@
+![Build status](https://travis-ci.org/loicNorgeot/EmScripten.svg)
+
 #Emscripten compilation tests
 
 ## Installation classique
